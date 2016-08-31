@@ -1,0 +1,66 @@
+/**
+ * 1. Media query breakpoint definitions.
+ * 2. Layout element sizes.
+ * 3. Colors:
+ * 		3.1 Gray scale pallete
+ * 		3.2 Font colors
+ * 		3.3 Main colors
+ * 		3.4 Message type
+ * 		3.5 Defaults 
+ * 4. Overides
+ * 5. Z index
+ */
+
+/* 1. Media query breakpoint definitions */
+$mq__width--small	: 768px !default;
+$mq__width--medium	: 1024px !default;
+$mq__width--large	: 1200px !default;
+
+/* 2, Layout element sizes */
+$size__header--height: 50px !default;
+$size__desctop-container--width: 1280px !default;
+
+/* 3. Colors */
+
+/* 3.1 Gray scale pallete */
+$color__gray--50	: #FAFAFA !default;
+$color__gray--100	: #F5F5F5 !default;
+$color__gray--200	: #EEEEEE !default;
+$color__gray--300	: #E0E0E0 !default;
+$color__gray--400	: #BDBDBD !default;
+$color__gray--500	: #9E9E9E !default;
+$color__gray--600	: #757575 !default;
+$color__gray--700	: #616161 !default;
+$color__gray--800	: #424242 !default;
+$color__gray--900	: #212121 !default;
+
+/* 3.2 Font colors */
+$color__text--primary			: rgba(0, 0, 0, .87) !default;
+$color__text--secondary			: rgba(0, 0, 0, .54) !default;
+$color__text--hint				: rgba(0, 0, 0, .38) !default;
+
+$color__text--light-primary		: rgba(255, 255, 255, 1) !default;
+$color__text--light-secondary	: rgba(255, 255, 255, .70) !default;
+$color__text--light-hint		: rgba(255, 255, 255, .50) !default;
+
+/* 3.3 Main colors */
+$color__primary		: #0078e7 !default;
+$color__secondary	: #00BCD4 !default;
+
+/* 3.4 Message type */
+$color__neutral 	: $color__gray--300 !default;
+$color__success		: #43ac6a !default;
+$color__warning		: #e99002 !default;
+$color__danger		: #f04124 !default;
+
+/* 3.5 Defaults */
+$color__shadow	: rgba(0, 0, 0, .28) !default;
+$color__border	: rgba(0, 0, 0, .15) !default;
+$color__link	: $color__primary !default;
+
+/* 4. Overides */
+$fa-font-path: '../vendor/font-awesome-sass/assets/fonts/font-awesome/';
+
+/* 5. Z index */
+$z-index__floating: 9 !default;
+$z-index__flying: 99 !default;

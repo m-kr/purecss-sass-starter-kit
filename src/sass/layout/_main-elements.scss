@@ -1,0 +1,29 @@
+html {
+	font-size: 62.5%; // ~ 10px
+}
+
+body {
+	font: {
+		size: 1.8rem;
+		family: 'Roboto';
+	}
+	color: $color__text--primary;
+	text-shadow: none !important;
+
+	@include breakpoint--sm {
+		font-size: 1.6rem;
+
+	}
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.site-container {
+	width: 90em;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+

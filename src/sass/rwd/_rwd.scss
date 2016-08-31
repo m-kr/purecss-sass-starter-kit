@@ -1,0 +1,23 @@
+.visible--sm {
+	display: none !important;
+
+	@include breakpoint--sm {
+		display: block !important;
+	}
+}
+
+.visible--md {
+	display: none !important;
+
+	@include breakpoint--md {
+		display: block !important;
+	}
+}
+
+.hidden--lg {
+	display: none !important;
+
+	@include breakpoint--lg {
+		display: block !important;
+	}
+}
