@@ -19,6 +19,6 @@
     "gulp-uglify": "^1.5.4",
     "gulp-util": "^3.0.7",
     "normalize-scss": "^5.0.3",
-    "purecss-sass": "git@github.com:postJScriptum/purecss-sass.git"
+    "purecss-sass": "git@github.com:m-kr/purecss-sass.git"
   }
 }
